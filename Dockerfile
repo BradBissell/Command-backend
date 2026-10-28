@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1
-FROM node:18-alpine
+FROM node:24.22.1-alpine
 ENV APP_ROOT="/home/bissbr01/projects/command/backend/scrum-management-backend/"
 ENV NODE_ENV=production
 WORKDIR ${APP_ROOT}
